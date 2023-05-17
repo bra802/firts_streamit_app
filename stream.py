@@ -1,6 +1,6 @@
 ## jeu de données fruits
 import pandas 
-my_fruit_list = pandas.read_csv("C:/Users/mba.ndiaye/Downloads\fruits.csv")
+my_fruit_list = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
 streamlit.dataframe(my_fruit_list)
 
 ## menu breakfast
